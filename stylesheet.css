@@ -1,0 +1,853 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+
+    width: auto;
+    font-family: 'Public Sans', sans-serif;
+    overflow-x: hidden;
+
+}
+
+.navlogo {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+    padding-left: 38px;
+    padding-right: 44px
+}
+
+.logo {
+    height: 20px;
+}
+
+ul {
+    display: flex;
+    /* border: 1px solid black; */
+    list-style-type: none;
+    width: 360px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+    font-size: 14px;
+
+
+
+}
+
+a:hover {
+    color: black;
+}
+
+
+.button {
+    color: white;
+    background: linear-gradient(117deg, rgba(49, 211, 92, 1) 24%, rgba(43, 183, 218, 1) 64%);
+
+    /* padding: 13px 36px; */
+    border-radius: 25px;
+    border: none;
+    width: 145.153px;
+    height: 37.52px;
+
+}
+
+.button:hover {
+    background: rgb(76, 217, 114);
+    background: linear-gradient(117deg, rgba(76, 217, 114, 1) 24%, rgba(50, 191, 226, 1) 86%);
+    cursor: pointer;
+
+}
+
+.section1 {
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    height: 596px;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 81px;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding-left: 142px;
+
+
+
+}
+
+.section1 h1 {
+    font-size: 57px;
+    font-weight: 300;
+    color: hsl(233, 26%, 24%);
+
+}
+
+.hp1 {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1fr; */
+    width: 50%;
+    /* border: 1px solid black; */
+    justify-content: center;
+    /* padding: 80px 70px; */
+    margin-right: 141px;
+
+
+
+
+}
+
+.hp1 p {
+    margin-top: 20px;
+    margin-bottom: 37px;
+    margin-right: 35px;
+    font-size: 16px;
+    color: hsl(233, 8%, 62%);
+}
+
+.image_container {
+    /* border: 1px solid black; */
+    /* flex: 1fr; */
+    width: 50%;
+    /* position: relative; */
+
+
+}
+
+.desktopintro {
+    /* object-fit: fill; */
+    /* margin-top:-200px; */
+    /* width: 700px; */
+    margin-top: -264px;
+    margin-left: -185px;
+    position: absolute;
+}
+
+.phones {
+    margin-top: -110px;
+    z-index: 11;
+    width: 695px;
+    margin-left: 22px;
+    position: relative;
+    /* opacity: 30%; */
+
+}
+
+.section2 {
+    background-color: hsl(220, 16%, 96%);
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    position: relative;
+    /* border: 1px solid black; */
+    z-index: 10;
+    padding-left: 146px;
+    padding-right: 40px;
+    gap: 90px;
+    width: 100%;
+}
+
+.section2 p {
+    font-size: 17px;
+    color: hsl(233, 8%, 62%);
+}
+
+.Easybank {
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    margin-right: 495px;
+    margin-bottom: -25px;
+}
+
+.Easybank h1 {
+    font-size: 33px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: hsl(233, 26%, 24%);
+}
+
+.feature {
+    display: flex;
+    /* gap: 20px; */
+    /* margin-right: 62px; */
+    width: 1147px;
+    /* border: 1px solid black; */
+    height: 500px;
+}
+
+.feature img {
+    margin-bottom: 30px;
+    width: 55px;
+}
+
+.feature h2 {
+    color: hsl(233, 26%, 24%);
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.feature p {
+    /* width: 260px; */
+    /* margin-right: 24px; */
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    /* border: 1px solid black; */
+    /* width: 20ch; */
+    /* Set the width to 20 characters */
+    /* overflow: hidden; */
+    /* word-wrap: break-word; */
+}
+
+.onlinebanking {
+    width: 261.5px;
+    /* border: 1px solid; */
+    padding-left: 0;
+    padding-right: 9px;
+}
+
+.onlinebanking p {
+    width: 230.4px;
+}
+
+.simplebudgeting {
+    width: 251.5px;
+    padding-left: 0;
+    padding-right: 0px;
+    /* border: 1px solid yellow; */
+}
+
+.simplebudgeting p {
+    width: 214px;
+}
+
+.fastonboarding {
+    width: 261.5px;
+    /* border: 1px solid blue; */
+    padding-left: 0;
+}
+
+.fastonboarding p {
+    width: 226px;
+}
+
+.openapi {
+    width: 298.5px;
+    padding-left: 0px;
+    /* border: 1px solid red; */
+    padding-right: 0px;
+}
+
+.openapi p {
+    width: 224px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    height: 712px;
+    background-color: hsl(0, 0%, 98%);
+    ;
+
+
+}
+
+.section3 h1 {
+    font-size: 33px;
+    font-weight: 300;
+    margin-bottom: 65px;
+    color: hsl(233, 26%, 24%);
+}
+
+.section3 img {
+    width: 227px;
+    height: 188px;
+    border-radius: 5px;
+}
+
+.LatestArticles {
+    /* margin-right: 51px; */
+    margin-left: 148px;
+    margin-top: 90px;
+}
+
+.lastone {
+    display: flex;
+    /* margin-right: 51px; */
+    margin-left: 150px;
+    margin-top: 1px;
+    /* margin-bottom: 40px; */
+    gap: 26px;
+}
+
+.lastone p1 {
+    color: hsl(233, 8%, 62%);
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.otherstuff {
+    height: 435px;
+    width: 227px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+
+.p1h2p {
+    /* border: 1px solid yellow; */
+    height: 270px;
+    margin: 25px 22px 25px 17px;
+}
+
+.p1h2p h2 {
+    color: hsl(233, 26%, 24%);
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.p1h2p p {
+    color: hsl(233, 8%, 62%);
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: hsl(233, 26%, 24%);
+    height: 178px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 158px;
+    padding-right: 200px;
+    padding-bottom: 45px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    fill: white;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialmedia img {
+    width: 16px;
+    height: 18px;
+}
+
+.acb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.acb a {
+    color: hsl(220, 16%, 96%);
+    font-size: 13px;
+
+}
+
+.invite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.invite p {
+    color: hsl(233, 8%, 62%);
+    font-size: 14px;
+}
+
+.invite button {
+    margin-left: 67px;
+}
+
+.menu-burger {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+
+
+    .navlogo {
+        justify-content: space-between;
+        height: 65px;
+        /* border: 1px solid; */
+        position: relative;
+        padding-left: 35px;
+        padding-right: 25px;
+        /* border: 1px solid; */
+        position: fixed;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .navlogo ul {
+        background-color: white;
+        display: flex;
+        border-radius: 5px;
+        /* border: 1px solid; */
+        height: 200px;
+        width: 80%;
+        flex-direction: column;
+        padding-bottom: 20px;
+        text-align: center;
+        padding-top: 20px;
+        position: absolute;
+        top: 300%;
+        /* Equivalent to top-1/2 */
+        left: 50%;
+        /* Equivalent to left-1/2 */
+        transform: translate(-50%, -50%);
+        /* Assuming you want a transition on the transform property */
+        /* box-shadow: 0px 1px 226px 18px rgba(0, 0, 0, 0.49); */
+        -webkit-box-shadow: 0px 1px 226px 18px rgba(0, 0, 0, 0.49);
+        -moz-box-shadow: 0px 1px 226px 18px rgba(0, 0, 0, 0.49);
+        display: none;
+
+    }
+.navlogo li a {
+    font-size: 17px;
+    font-weight: 300;
+    color: hsl(233, 26%, 24%);
+}
+.navlogo li:hover{
+    background-color: gray;
+}
+    .menu-burger {
+        display: inline-block;
+        width: 26px;
+        height: 20px;
+        cursor: pointer;
+        position: relative;
+        border: none;
+        background: none;
+    }
+
+    .menu-burger span {
+        background-color: black;
+        height: 3px;
+        width: 100%;
+        left: 0;
+        position: absolute;
+        transition: 0.5s;
+    }
+
+    .menu-burger span:first-child {
+        top: 0px;
+    }
+
+    .menu-burger span:nth-child(2) {
+        top: 6px;
+    }
+
+    .menu-burger span:last-child {
+        top: 12px;
+    }
+
+    .section1 {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 68px;
+        margin-bottom: 60px;
+        padding-left: unset;
+        gap: unset;
+        /* border: 1px solid purple; */
+
+    }
+
+    .hp1 {
+        display: flex;
+        margin-right: 0px;
+        /* border: 1px solid green; */
+        width: 100%;
+        align-items: center;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .hp1 h1 {
+        font-size: 35px;
+        font-weight: 400;
+        margin-top: -63px;
+        margin-left: 30px;
+    }
+
+    .hp1 p {
+        font-size: 14px;
+        width: 307px;
+        margin-left: 59px;
+    }
+
+    .hp1 .button {
+        display: block;
+        margin-left: -5px;
+        height: 46px;
+        width: 150px;
+    }
+
+    .image_container {
+        /* border: 1px solid yellow; */
+        width: 100%;
+        position: relative;
+    }
+
+    .image_container img:nth-child(1) {
+        display: none;
+    }
+
+    .phones {
+        width: 356px;
+        top: 75px;
+        right: 10px;
+        position: absolute;
+    }
+
+    .mobileintro {
+        margin-top: -175px;
+        position: relative;
+        width: 100%;
+        height: 691px;
+    }
+
+    .section2 {
+        flex-direction: column;
+        height: 100%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 35px;
+        padding-right: 35px;
+        gap: 60px;
+        /* border: 1px solid red; */
+    }
+
+    .section2 p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .Easybank {
+        /* border: 1px solid black; */
+        margin-top: unset;
+        margin-right: unset;
+        margin-bottom: unset;
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        text-align: center;
+    }
+
+    .Easybank h1 {
+        font-size: 33px;
+        font-weight: 300;
+        margin-bottom: unset;
+        /* margin-left: 63px; */
+        color: hsl(233, 26%, 24%);
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: column;
+        width: unset;
+        /* border: 1px solid black; */
+        height: unset;
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        text-align: center;
+
+    }
+
+    .feature img {
+        margin-bottom: 30px;
+        width: 80px;
+    }
+
+    .feature h2 {
+        color: hsl(233, 26%, 24%);
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+
+    .feature p {
+        /* width: 260px; */
+        /* margin-right: 24px; */
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        /* border: 1px solid black; */
+        /* width: 20ch; */
+        /* Set the width to 20 characters */
+        /* overflow: hidden; */
+        /* word-wrap: break-word; */
+    }
+
+    .onlinebanking {
+        width: unset;
+        /* border: 1px solid; */
+        padding-left: 0;
+        padding-right: 9px;
+        text-align: center;
+    }
+
+    .onlinebanking p {
+        width: unset;
+    }
+
+    .simplebudgeting {
+        width: unset;
+        padding-left: 0;
+        padding-right: 0px;
+        /* border: 1px solid yellow; */
+    }
+
+    .simplebudgeting p {
+        width: unset;
+    }
+
+    .fastonboarding {
+        width: unset;
+        /* border: 1px solid blue; */
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .fastonboarding p {
+        width: unset;
+    }
+
+    .openapi {
+        width: unset;
+        padding-left: 0px;
+        /* border: 1px solid red; */
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .openapi p {
+        width: unset;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        background-color: hsl(0, 0%, 98%);
+        padding-left: 35px;
+        padding-right: 35px;
+        /* border: 1px solid green; */
+        margin-top: 60px;
+        margin-bottom: 120px;
+        align-items: center;
+    }
+
+    .section3 h1 {
+        font-size: 33px;
+        font-weight: 300;
+        margin-bottom: 65px;
+        color: hsl(233, 26%, 24%);
+    }
+
+    .section3 img {
+        width: 315px;
+        height: 212px;
+        border-radius: 5px;
+    }
+
+    .LatestArticles {
+        /* margin-right: 51px; */
+        margin-left: unset;
+        margin-top: unset;
+        /* border: 1px solid orangered; */
+    }
+
+    .lastone {
+        display: flex;
+        flex-direction: column;
+        margin-left: unset;
+        margin-top: unset;
+        gap: 45px;
+    }
+
+    .lastone p1 {
+        color: hsl(233, 8%, 62%);
+        font-weight: 300;
+        font-size: 12px;
+        margin-top: unset;
+    }
+
+    .otherstuff {
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .p1h2p {
+        /* border: 1px solid yellow; */
+        height: unset;
+        margin: unset;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 290px;
+    }
+
+    .p1h2p h2 {
+        color: hsl(233, 26%, 24%);
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: unset;
+    }
+
+    .p1h2p p {
+        color: hsl(233, 8%, 62%);
+        font-weight: 300;
+        font-size: 14px;
+        margin-top: unset;
+    }
+
+    .toggle-checkbox {
+        display: none;
+      }
+
+    footer {
+        background-color: hsl(233, 26%, 24%);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding-top: 50px;
+        padding-left: unset;
+        padding-right: unset;
+        padding-bottom: 60px;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        fill: white;
+        gap: 33px;
+    }
+
+    .socialmedia {
+        display: flex;
+        justify-content: space-between;
+        margin-right: unset;
+        gap: 15px;
+    }
+
+    .socialmedia img {
+        width: 22px;
+
+        height: 18px;
+    }
+    .footerul{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .acb {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .acb a {
+        color: hsl(220, 16%, 96%);
+        font-size: 13px;
+
+    }
+
+    .invite {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .invite p {
+        color: hsl(233, 8%, 62%);
+        font-size: 14px;
+    }
+
+    .invite button {
+        margin-left: unset;
+        display: block;
+        margin-left: unset;
+    }
+    .navegator input[type="checkbox"]:checked ~ .navlist{
+        display: flex;
+    }
+    .navegator input[type="checkbox"]{
+         position: absolute; 
+        width: 26px;
+        height: 20px;
+        z-index: 10;
+        margin-right: 30px;
+        opacity: 0;
+
+    }
+    .navegator input[type="checkbox"]:checked ~ label .menu-burger span:nth-child(1){
+
+        transform: translateY(2px) rotate(45deg);
+
+    }
+    .navegator input[type="checkbox"]:checked ~ label .menu-burger span:nth-child(2){
+
+        opacity: 0;
+
+    }
+    .navegator input[type="checkbox"]:checked ~ label .menu-burger span:nth-child(3){
+
+        transform: translateY(-9px) rotate(-45deg);
+
+    }
+
+}
